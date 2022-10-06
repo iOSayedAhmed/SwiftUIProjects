@@ -15,12 +15,16 @@ struct ContentView: View {
             Image(article.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
+            
                 .cornerRadius(5)
             
             Text(article.title)
                 .font(.system(.title,design: .rounded))
-                .fontWeight(.black)
+                .fontWeight(.bold)
+                .foregroundColor(Color(red: 0.273, green: 0.478, blue: 0.996))
                 .lineLimit(3)
+                .rotation3DEffect(.degrees(60),axis: (x: 1, y: 0, z: 0))
+                .shadow(color: .gray, radius: 1, x: 0, y: 15)
                 .padding(.bottom,0)
             
             Text("By \(article.author)".uppercased())
@@ -39,8 +43,10 @@ struct ContentView: View {
             Text(article.details)
                 .font(.subheadline)
                 .foregroundColor(.secondary)
+                .lineLimit(nil)
                 .padding(.bottom,0)
-            
+                //.rotationEffect(.degrees(20))
+                
             Image(systemName: "skew")
                 .resizable()
                 .foregroundColor(.accentColor)

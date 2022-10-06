@@ -7,26 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BAA5AC8828EEDBDD00DA20EA /* SwiftUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA5AC8728EEDBDD00DA20EA /* SwiftUIImage.swift */; };
-		BAF7D2A028EAE08800310F7C /* AricleRowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF7D29F28EAE08800310F7C /* AricleRowApp.swift */; };
-		BAF7D2A228EAE08800310F7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF7D2A128EAE08800310F7C /* ContentView.swift */; };
-		BAF7D2A428EAE08F00310F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF7D2A328EAE08F00310F7C /* Assets.xcassets */; };
-		BAF7D2A728EAE08F00310F7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF7D2A628EAE08F00310F7C /* Preview Assets.xcassets */; };
-		BAF7D2AE28EAE0D400310F7C /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF7D2AD28EAE0D400310F7C /* Article.swift */; };
+		BAE5812728EE28F20021B851 /* SOLID_PrinciplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE5812628EE28F20021B851 /* SOLID_PrinciplesApp.swift */; };
+		BAE5812928EE28F20021B851 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE5812828EE28F20021B851 /* ContentView.swift */; };
+		BAE5812B28EE28F60021B851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE5812A28EE28F60021B851 /* Assets.xcassets */; };
+		BAE5812E28EE28F60021B851 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE5812D28EE28F60021B851 /* Preview Assets.xcassets */; };
+		BAE5813528EE292F0021B851 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE5813428EE292F0021B851 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BAA5AC8728EEDBDD00DA20EA /* SwiftUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIImage.swift; sourceTree = "<group>"; };
-		BAF7D29C28EAE08800310F7C /* AricleRow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AricleRow.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAF7D29F28EAE08800310F7C /* AricleRowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AricleRowApp.swift; sourceTree = "<group>"; };
-		BAF7D2A128EAE08800310F7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BAF7D2A328EAE08F00310F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BAF7D2A628EAE08F00310F7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BAF7D2AD28EAE0D400310F7C /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		BAE5812328EE28F20021B851 /* SOLID_Principles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOLID_Principles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE5812628EE28F20021B851 /* SOLID_PrinciplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOLID_PrinciplesApp.swift; sourceTree = "<group>"; };
+		BAE5812828EE28F20021B851 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BAE5812A28EE28F60021B851 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAE5812D28EE28F60021B851 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAE5813428EE292F0021B851 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BAF7D29928EAE08800310F7C /* Frameworks */ = {
+		BAE5812028EE28F10021B851 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,39 +34,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BAF7D29328EAE08700310F7C = {
+		BAE5811A28EE28F10021B851 = {
 			isa = PBXGroup;
 			children = (
-				BAF7D29E28EAE08800310F7C /* AricleRow */,
-				BAF7D29D28EAE08800310F7C /* Products */,
+				BAE5812528EE28F20021B851 /* SOLID_Principles */,
+				BAE5812428EE28F20021B851 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BAF7D29D28EAE08800310F7C /* Products */ = {
+		BAE5812428EE28F20021B851 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BAF7D29C28EAE08800310F7C /* AricleRow.app */,
+				BAE5812328EE28F20021B851 /* SOLID_Principles.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BAF7D29E28EAE08800310F7C /* AricleRow */ = {
+		BAE5812528EE28F20021B851 /* SOLID_Principles */ = {
 			isa = PBXGroup;
 			children = (
-				BAA5AC8728EEDBDD00DA20EA /* SwiftUIImage.swift */,
-				BAF7D2A128EAE08800310F7C /* ContentView.swift */,
-				BAF7D29F28EAE08800310F7C /* AricleRowApp.swift */,
-				BAF7D2A328EAE08F00310F7C /* Assets.xcassets */,
-				BAF7D2A528EAE08F00310F7C /* Preview Content */,
-				BAF7D2AD28EAE0D400310F7C /* Article.swift */,
+				BAE5812628EE28F20021B851 /* SOLID_PrinciplesApp.swift */,
+				BAE5812828EE28F20021B851 /* ContentView.swift */,
+				BAE5812A28EE28F60021B851 /* Assets.xcassets */,
+				BAE5812C28EE28F60021B851 /* Preview Content */,
+				BAE5813428EE292F0021B851 /* APIService.swift */,
 			);
-			path = AricleRow;
+			path = SOLID_Principles;
 			sourceTree = "<group>";
 		};
-		BAF7D2A528EAE08F00310F7C /* Preview Content */ = {
+		BAE5812C28EE28F60021B851 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				BAF7D2A628EAE08F00310F7C /* Preview Assets.xcassets */,
+				BAE5812D28EE28F60021B851 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -76,39 +73,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BAF7D29B28EAE08800310F7C /* AricleRow */ = {
+		BAE5812228EE28F10021B851 /* SOLID_Principles */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BAF7D2AA28EAE08F00310F7C /* Build configuration list for PBXNativeTarget "AricleRow" */;
+			buildConfigurationList = BAE5813128EE28F60021B851 /* Build configuration list for PBXNativeTarget "SOLID_Principles" */;
 			buildPhases = (
-				BAF7D29828EAE08800310F7C /* Sources */,
-				BAF7D29928EAE08800310F7C /* Frameworks */,
-				BAF7D29A28EAE08800310F7C /* Resources */,
+				BAE5811F28EE28F10021B851 /* Sources */,
+				BAE5812028EE28F10021B851 /* Frameworks */,
+				BAE5812128EE28F10021B851 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AricleRow;
-			productName = AricleRow;
-			productReference = BAF7D29C28EAE08800310F7C /* AricleRow.app */;
+			name = SOLID_Principles;
+			productName = SOLID_Principles;
+			productReference = BAE5812328EE28F20021B851 /* SOLID_Principles.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BAF7D29428EAE08700310F7C /* Project object */ = {
+		BAE5811B28EE28F10021B851 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					BAF7D29B28EAE08800310F7C = {
+					BAE5812228EE28F10021B851 = {
 						CreatedOnToolsVersion = 13.4;
 					};
 				};
 			};
-			buildConfigurationList = BAF7D29728EAE08700310F7C /* Build configuration list for PBXProject "AricleRow" */;
+			buildConfigurationList = BAE5811E28EE28F10021B851 /* Build configuration list for PBXProject "SOLID_Principles" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,44 +113,43 @@
 				en,
 				Base,
 			);
-			mainGroup = BAF7D29328EAE08700310F7C;
-			productRefGroup = BAF7D29D28EAE08800310F7C /* Products */;
+			mainGroup = BAE5811A28EE28F10021B851;
+			productRefGroup = BAE5812428EE28F20021B851 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BAF7D29B28EAE08800310F7C /* AricleRow */,
+				BAE5812228EE28F10021B851 /* SOLID_Principles */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BAF7D29A28EAE08800310F7C /* Resources */ = {
+		BAE5812128EE28F10021B851 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAF7D2A728EAE08F00310F7C /* Preview Assets.xcassets in Resources */,
-				BAF7D2A428EAE08F00310F7C /* Assets.xcassets in Resources */,
+				BAE5812E28EE28F60021B851 /* Preview Assets.xcassets in Resources */,
+				BAE5812B28EE28F60021B851 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BAF7D29828EAE08800310F7C /* Sources */ = {
+		BAE5811F28EE28F10021B851 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAF7D2A228EAE08800310F7C /* ContentView.swift in Sources */,
-				BAF7D2A028EAE08800310F7C /* AricleRowApp.swift in Sources */,
-				BAF7D2AE28EAE0D400310F7C /* Article.swift in Sources */,
-				BAA5AC8828EEDBDD00DA20EA /* SwiftUIImage.swift in Sources */,
+				BAE5812928EE28F20021B851 /* ContentView.swift in Sources */,
+				BAE5813528EE292F0021B851 /* APIService.swift in Sources */,
+				BAE5812728EE28F20021B851 /* SOLID_PrinciplesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BAF7D2A828EAE08F00310F7C /* Debug */ = {
+		BAE5812F28EE28F60021B851 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -213,7 +209,7 @@
 			};
 			name = Debug;
 		};
-		BAF7D2A928EAE08F00310F7C /* Release */ = {
+		BAE5813028EE28F60021B851 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -267,14 +263,14 @@
 			};
 			name = Release;
 		};
-		BAF7D2AB28EAE08F00310F7C /* Debug */ = {
+		BAE5813228EE28F60021B851 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AricleRow/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SOLID_Principles/Preview Content\"";
 				DEVELOPMENT_TEAM = LC63953P8C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -288,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = as.AricleRow;
+				PRODUCT_BUNDLE_IDENTIFIER = "as.SOLID-Principles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,14 +292,14 @@
 			};
 			name = Debug;
 		};
-		BAF7D2AC28EAE08F00310F7C /* Release */ = {
+		BAE5813328EE28F60021B851 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AricleRow/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SOLID_Principles/Preview Content\"";
 				DEVELOPMENT_TEAM = LC63953P8C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -317,7 +313,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = as.AricleRow;
+				PRODUCT_BUNDLE_IDENTIFIER = "as.SOLID-Principles";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -328,25 +324,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BAF7D29728EAE08700310F7C /* Build configuration list for PBXProject "AricleRow" */ = {
+		BAE5811E28EE28F10021B851 /* Build configuration list for PBXProject "SOLID_Principles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BAF7D2A828EAE08F00310F7C /* Debug */,
-				BAF7D2A928EAE08F00310F7C /* Release */,
+				BAE5812F28EE28F60021B851 /* Debug */,
+				BAE5813028EE28F60021B851 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BAF7D2AA28EAE08F00310F7C /* Build configuration list for PBXNativeTarget "AricleRow" */ = {
+		BAE5813128EE28F60021B851 /* Build configuration list for PBXNativeTarget "SOLID_Principles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BAF7D2AB28EAE08F00310F7C /* Debug */,
-				BAF7D2AC28EAE08F00310F7C /* Release */,
+				BAE5813228EE28F60021B851 /* Debug */,
+				BAE5813328EE28F60021B851 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BAF7D29428EAE08700310F7C /* Project object */;
+	rootObject = BAE5811B28EE28F10021B851 /* Project object */;
 }
