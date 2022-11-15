@@ -8,27 +8,37 @@
 import SwiftUI
 
 struct CardView: View {
+    var image: String
+    var category: String
+    var heading: String
+    var author: String
     var body: some View {
+        
+        
         VStack(alignment: .leading){
-            Image("cardImage")
+            Image(image)
                 .resizable()
-                .scaledToFit()
+                .aspectRatio(contentMode: .fit)
             HStack{
                 VStack(alignment:.leading){
-                    Text("Swiftui".uppercased())
+                    Text(category.uppercased())
                         .font(.system(.headline))
                         .foregroundColor(.secondary)
                         .padding(.leading,30)
-                    Text("Drawing a Border With Rounded Cornors")
+                    Text(heading)
                         .font(.system(.title2 , design: .rounded , weight: .heavy))
                         .foregroundColor(.primary)
                         .padding(.leading,30)
-                    Text("written by iosayed".uppercased())
+                    Text("written by \(author)".uppercased())
                         .font(.system(.caption))
                         .foregroundColor(.secondary)
                         .padding(.leading,30)
                 }
+                .layoutPriority(100)
+                Spacer()
+                
             }//HStack
+            
         }//VStack
         .cornerRadius(10)
                 .overlay(
@@ -43,6 +53,7 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView()
+        CardView(image: "cardImage", category: "SwiftUI", heading: "Drawing a Border with Rounded Corners"
+                , author: "iosayed")
     }
 }
